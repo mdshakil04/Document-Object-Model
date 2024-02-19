@@ -9,6 +9,6 @@ for(const h1 of allHeading){
 }
 const myDaughter = document.getElementById('my-star');
 console.log(myDaughter.innerText);
-myDaughter.innerText = 'Aysha Noor';
+myDaughter.innerText = 'Jannatul Ferdous Akhi';
 const mainHeader = document.getElementById('header');
 mainHeader.innerText = "Only DOM is real"

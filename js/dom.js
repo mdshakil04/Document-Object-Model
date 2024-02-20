@@ -7,7 +7,7 @@ const allHeading = document.getElementsByTagName('h1');
 for(const h1 of allHeading){
     // console.log(h1.innerText);
 }
-const myDaughter = document.getElementById('my-star');
+const myDaughter = document.getElementById('my-star').style.backgroundColor = 'skyblue';
 console.log(myDaughter.innerText);
 myDaughter.innerText = 'Jannatul Ferdous Akhi';
 const mainHeader = document.getElementById('header');

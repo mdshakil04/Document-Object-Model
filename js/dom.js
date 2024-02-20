@@ -8,7 +8,16 @@ for(const h1 of allHeading){
     // console.log(h1.innerText);
 }
 const myDaughter = document.getElementById('my-star').style.backgroundColor = 'skyblue';
-console.log(myDaughter.innerText);
-myDaughter.innerText = 'Jannatul Ferdous Akhi';
+// console.log(myDaughter.innerText);
+myDaughter.innerText = 'Miftahul';
 const mainHeader = document.getElementById('header');
-mainHeader.innerText = "Only DOM is real"
+// mainHeader.innerText = "Only DOM is real";
+mainHeader.innerHTML = "<h1>This is my Awesome DOM</h1>"
+
+const mains = document.querySelectorAll('main');
+// console.log(mains)
+for(const main of mains){
+    // console.log(main)
+    main.style.border = ' 2px solid steelblue';
+    main.style.padding = '10px'
+}

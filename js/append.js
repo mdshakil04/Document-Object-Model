@@ -13,7 +13,6 @@ const memberContainer = document.getElementById('family-container')
 const newContainer = document.createElement('section')
 memberContainer.appendChild(newContainer)
 newContainer.innerHTML = `
-    <h1>My Permanent Family</h1>
     <ul>
         <li>Maa</li>
         <li>Baba</li>
